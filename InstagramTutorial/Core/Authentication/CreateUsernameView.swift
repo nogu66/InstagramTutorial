@@ -28,7 +28,7 @@ struct CreateUsernameView: View {
                 .autocapitalization(.none)
                 .modifier(IGTextFieldModifier())
             
-            Button {
+            NavigationLink {
                 CreatePasswordView()
                     .navigationBarBackButtonHidden()
             } label: {

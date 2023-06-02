@@ -1,13 +1,13 @@
 //
-//  ProifleView.swift
+//  CurrentUserProfileView.swift
 //  InstagramTutorial
 //
-//  Created by YutaNoguchi on 2023/06/01.
+//  Created by YutaNoguchi on 2023/06/02.
 //
 
 import SwiftUI
 
-struct ProifleView: View {
+struct CurrentUserProfileView: View {
     
     private let gridItems: [GridItem] = [
         .init(.flexible(), spacing: 1),
@@ -96,8 +96,8 @@ struct ProifleView: View {
     }
 }
 
-struct ProifleView_Previews: PreviewProvider {
+struct CurrentUserProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ProifleView()
+        CurrentUserProfileView()
     }
 }
