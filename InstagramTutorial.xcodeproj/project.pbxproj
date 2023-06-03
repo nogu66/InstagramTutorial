@@ -25,6 +25,9 @@
 		F9E28CBD2A2A1FA5004DF117 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CBC2A2A1FA5004DF117 /* CompleteSignUpView.swift */; };
 		F9E28CC02A2A21A4004DF117 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CBF2A2A21A4004DF117 /* User.swift */; };
 		F9E28CC22A2A2D45004DF117 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC12A2A2D45004DF117 /* CurrentUserProfileView.swift */; };
+		F9E28CC42A2ABF9D004DF117 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC32A2ABF9D004DF117 /* Post.swift */; };
+		F9E28CC62A2AC59C004DF117 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC52A2AC59C004DF117 /* PostGridView.swift */; };
+		F9E28CC82A2AC703004DF117 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC72A2AC703004DF117 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		F9E28CBC2A2A1FA5004DF117 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		F9E28CBF2A2A21A4004DF117 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F9E28CC12A2A2D45004DF117 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		F9E28CC32A2ABF9D004DF117 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F9E28CC52A2AC59C004DF117 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		F9E28CC72A2AC703004DF117 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F9E28CBF2A2A21A4004DF117 /* User.swift */,
+				F9E28CC32A2ABF9D004DF117 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +177,7 @@
 			children = (
 				F9E28CA72A2809E5004DF117 /* ProfileView.swift */,
 				F9E28CC12A2A2D45004DF117 /* CurrentUserProfileView.swift */,
+				F9E28CC72A2AC703004DF117 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			children = (
 				F9E28CAA2A280F7C004DF117 /* UserStatsView.swift */,
 				F9E28CB62A2A1AAD004DF117 /* IGTextFieldModifier.swift */,
+				F9E28CC52A2AC59C004DF117 /* PostGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -287,10 +296,13 @@
 				F9E28CA82A2809E5004DF117 /* ProfileView.swift in Sources */,
 				F9E28CAB2A280F7C004DF117 /* UserStatsView.swift in Sources */,
 				F9E28CB32A2A110E004DF117 /* LoginView.swift in Sources */,
+				F9E28CC42A2ABF9D004DF117 /* Post.swift in Sources */,
 				F9E28C8C2A278CFC004DF117 /* ContentView.swift in Sources */,
 				F9E28CC22A2A2D45004DF117 /* CurrentUserProfileView.swift in Sources */,
 				F9E28CB52A2A17E5004DF117 /* AddEmailView.swift in Sources */,
+				F9E28CC62A2AC59C004DF117 /* PostGridView.swift in Sources */,
 				F9E28CB92A2A1CEC004DF117 /* CreateUsernameView.swift in Sources */,
+				F9E28CC82A2AC703004DF117 /* ProfileHeaderView.swift in Sources */,
 				F9E28CBD2A2A1FA5004DF117 /* CompleteSignUpView.swift in Sources */,
 				F9E28CC02A2A21A4004DF117 /* User.swift in Sources */,
 				F9E28CB12A296066004DF117 /* SearchView.swift in Sources */,
