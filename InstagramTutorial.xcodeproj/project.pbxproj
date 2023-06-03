@@ -28,6 +28,8 @@
 		F9E28CC42A2ABF9D004DF117 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC32A2ABF9D004DF117 /* Post.swift */; };
 		F9E28CC62A2AC59C004DF117 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC52A2AC59C004DF117 /* PostGridView.swift */; };
 		F9E28CC82A2AC703004DF117 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC72A2AC703004DF117 /* ProfileHeaderView.swift */; };
+		F9E28CCA2A2AD7B0004DF117 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CC92A2AD7B0004DF117 /* UploadPostView.swift */; };
+		F9E28CCC2A2ADAB6004DF117 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28CCB2A2ADAB6004DF117 /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		F9E28CC32A2ABF9D004DF117 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F9E28CC52A2AC59C004DF117 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		F9E28CC72A2AC703004DF117 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		F9E28CC92A2AD7B0004DF117 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		F9E28CCB2A2ADAB6004DF117 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 		F9E28CA42A278DDD004DF117 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				F9E28CC92A2AD7B0004DF117 /* UploadPostView.swift */,
+				F9E28CCB2A2ADAB6004DF117 /* UploadPostViewModel.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E28CAF2A295974004DF117 /* FeedCell.swift in Sources */,
+				F9E28CCA2A2AD7B0004DF117 /* UploadPostView.swift in Sources */,
 				F9E28CA82A2809E5004DF117 /* ProfileView.swift in Sources */,
 				F9E28CAB2A280F7C004DF117 /* UserStatsView.swift in Sources */,
 				F9E28CB32A2A110E004DF117 /* LoginView.swift in Sources */,
@@ -302,6 +309,7 @@
 				F9E28CB52A2A17E5004DF117 /* AddEmailView.swift in Sources */,
 				F9E28CC62A2AC59C004DF117 /* PostGridView.swift in Sources */,
 				F9E28CB92A2A1CEC004DF117 /* CreateUsernameView.swift in Sources */,
+				F9E28CCC2A2ADAB6004DF117 /* UploadPostViewModel.swift in Sources */,
 				F9E28CC82A2AC703004DF117 /* ProfileHeaderView.swift in Sources */,
 				F9E28CBD2A2A1FA5004DF117 /* CompleteSignUpView.swift in Sources */,
 				F9E28CC02A2A21A4004DF117 /* User.swift in Sources */,
