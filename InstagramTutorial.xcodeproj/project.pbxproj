@@ -168,11 +168,11 @@
 				F9E28C9D2A278D2D004DF117 /* App */,
 				F9E28C9C2A278D2A004DF117 /* Core */,
 				F9E28C992A278D1F004DF117 /* Extensions */,
-				F9E28C982A278D17004DF117 /* Model */,
-				F9E28C972A278D13004DF117 /* Services */,
 				F9E28CCD2A2B808F004DF117 /* GoogleService-Info.plist */,
+				F9E28C982A278D17004DF117 /* Model */,
 				F9E28C8D2A278CFE004DF117 /* Assets.xcassets */,
 				F9E28C8F2A278CFE004DF117 /* Preview Content */,
+				F9E28C972A278D13004DF117 /* Services */,
 			);
 			path = InstagramTutorial;
 			sourceTree = "<group>";
