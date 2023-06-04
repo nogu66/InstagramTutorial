@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F9B800472A2C40D300830888 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B800462A2C40D300830888 /* RegistrationViewModel.swift */; };
 		F9B800492A2C580A00830888 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B800482A2C580A00830888 /* LoginViewModel.swift */; };
+		F9B8004B2A2C653A00830888 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8004A2A2C653A00830888 /* UserService.swift */; };
+		F9B8004F2A2C673B00830888 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8004E2A2C673B00830888 /* SearchViewModel.swift */; };
 		F9E28C8A2A278CFC004DF117 /* InstagramTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28C892A278CFC004DF117 /* InstagramTutorialApp.swift */; };
 		F9E28C8C2A278CFC004DF117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28C8B2A278CFC004DF117 /* ContentView.swift */; };
 		F9E28C8E2A278CFE004DF117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E28C8D2A278CFE004DF117 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		F9B800462A2C40D300830888 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		F9B800482A2C580A00830888 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F9B8004A2A2C653A00830888 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F9B8004E2A2C673B00830888 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		F9E28C862A278CFC004DF117 /* InstagramTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E28C892A278CFC004DF117 /* InstagramTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorialApp.swift; sourceTree = "<group>"; };
 		F9E28C8B2A278CFC004DF117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		F9B8004C2A2C671900830888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9E28CB02A296066004DF117 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9B8004D2A2C672100830888 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9B8004E2A2C673B00830888 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F9E28C7D2A278CFC004DF117 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +159,7 @@
 		F9E28C972A278D13004DF117 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F9B8004A2A2C653A00830888 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -223,7 +244,8 @@
 		F9E28CA22A278D94004DF117 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				F9E28CB02A296066004DF117 /* SearchView.swift */,
+				F9B8004D2A2C672100830888 /* ViewModel */,
+				F9B8004C2A2C671900830888 /* View */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -377,6 +399,7 @@
 				F9E28CAB2A280F7C004DF117 /* UserStatsView.swift in Sources */,
 				F9E28CB32A2A110E004DF117 /* LoginView.swift in Sources */,
 				F9E28CDB2A2B8784004DF117 /* AuthService.swift in Sources */,
+				F9B8004B2A2C653A00830888 /* UserService.swift in Sources */,
 				F9E28CC42A2ABF9D004DF117 /* Post.swift in Sources */,
 				F9E28C8C2A278CFC004DF117 /* ContentView.swift in Sources */,
 				F9E28CC22A2A2D45004DF117 /* CurrentUserProfileView.swift in Sources */,
@@ -394,6 +417,7 @@
 				F9E28CB72A2A1AAD004DF117 /* IGTextFieldModifier.swift in Sources */,
 				F9E28C8A2A278CFC004DF117 /* InstagramTutorialApp.swift in Sources */,
 				F9E28CAD2A295963004DF117 /* FeedView.swift in Sources */,
+				F9B8004F2A2C673B00830888 /* SearchViewModel.swift in Sources */,
 				F9E28CA62A278E32004DF117 /* MainTabView.swift in Sources */,
 				F9E28CBB2A2A1ECA004DF117 /* CreatePasswordView.swift in Sources */,
 			);
