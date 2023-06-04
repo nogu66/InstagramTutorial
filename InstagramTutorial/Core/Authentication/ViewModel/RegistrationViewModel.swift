@@ -14,5 +14,9 @@ class RegistrationViewModel: ObservableObject {
     
     func createUser() async throws {
         try await AuthServie.shared.createUser(email: email, password: password, username: username)
+        
+        username = ""
+        email = ""
+        password = ""
     }
 }
