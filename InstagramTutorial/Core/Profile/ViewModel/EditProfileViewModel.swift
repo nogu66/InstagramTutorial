@@ -12,10 +12,10 @@ import SwiftUI
 @MainActor
 class EditProfileViewModel: ObservableObject {
     @Published var user: User
+    
     @Published var selectedImage: PhotosPickerItem? {
         didSet{ Task { await loadImage(fromItem: selectedImage) } }
     }
-    
     @Published var profileImage: Image?
     
     @Published var fullname = ""
