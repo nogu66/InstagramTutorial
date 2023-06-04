@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9B800472A2C40D300830888 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B800462A2C40D300830888 /* RegistrationViewModel.swift */; };
+		F9B800492A2C580A00830888 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B800482A2C580A00830888 /* LoginViewModel.swift */; };
 		F9E28C8A2A278CFC004DF117 /* InstagramTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28C892A278CFC004DF117 /* InstagramTutorialApp.swift */; };
 		F9E28C8C2A278CFC004DF117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E28C8B2A278CFC004DF117 /* ContentView.swift */; };
 		F9E28C8E2A278CFE004DF117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E28C8D2A278CFE004DF117 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9B800462A2C40D300830888 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		F9B800482A2C580A00830888 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		F9E28C862A278CFC004DF117 /* InstagramTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E28C892A278CFC004DF117 /* InstagramTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorialApp.swift; sourceTree = "<group>"; };
 		F9E28C8B2A278CFC004DF117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9B800452A2C40C300830888 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F9B800462A2C40D300830888 /* RegistrationViewModel.swift */,
+				F9B800482A2C580A00830888 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F9E28C7D2A278CFC004DF117 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 			children = (
 				F9E28CD92A2B8766004DF117 /* Service */,
 				F9E28CD82A2B8740004DF117 /* View */,
+				F9B800452A2C40C300830888 /* ViewModel */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -370,6 +384,8 @@
 				F9E28CC62A2AC59C004DF117 /* PostGridView.swift in Sources */,
 				F9E28CB92A2A1CEC004DF117 /* CreateUsernameView.swift in Sources */,
 				F9E28CE02A2B8925004DF117 /* ContentViewModel.swift in Sources */,
+				F9B800492A2C580A00830888 /* LoginViewModel.swift in Sources */,
+				F9B800472A2C40D300830888 /* RegistrationViewModel.swift in Sources */,
 				F9E28CCC2A2ADAB6004DF117 /* UploadPostViewModel.swift in Sources */,
 				F9E28CC82A2AC703004DF117 /* ProfileHeaderView.swift in Sources */,
 				F9E28CBD2A2A1FA5004DF117 /* CompleteSignUpView.swift in Sources */,
